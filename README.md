@@ -99,3 +99,89 @@ docs/       Detailed project documentation
 wordlists/  Simple sample username and password lists
 images/     Screenshots from the lab environment
 logs/       Sanitized outputs from the tests
+```
+
+## Security Risks Studied
+
+This project focuses on common risks related to weak authentication and exposed services, such as:
+
+- Weak passwords;
+- Default credentials;
+- Reused passwords;
+- Lack of account lockout policies;
+- Lack of multi-factor authentication;
+- Exposed authentication services;
+- Insufficient monitoring of failed login attempts;
+- Poor network segmentation;
+- Unnecessary services enabled;
+- Outdated vulnerable systems;
+- Poor password management practices;
+- Misconfigured services;
+- Excessive access permissions.
+
+These risks are studied in a controlled environment to understand how they can affect the confidentiality, integrity, and availability of systems and services.
+
+## Mitigation Measures
+
+Some mitigation strategies studied in this project include:
+
+- Enforcing strong password policies;
+- Avoiding the use of default credentials;
+- Implementing multi-factor authentication;
+- Limiting failed login attempts;
+- Applying account lockout policies;
+- Monitoring authentication logs;
+- Reviewing exposed services regularly;
+- Disabling unnecessary services;
+- Keeping systems and applications updated;
+- Restricting access by IP address;
+- Applying network segmentation;
+- Using least privilege principles;
+- Improving security awareness and user training.
+
+The goal of these measures is to reduce the likelihood of successful brute-force attacks and improve the overall security posture of the environment.
+
+## Evidence and Documentation
+
+All screenshots and logs included in this repository must be sanitized before publication.
+
+Sensitive information such as real passwords, personal data, public IP addresses, private credentials, or information from third-party systems must not be published.
+
+The documentation will include:
+
+- Lab setup description;
+- Network configuration notes;
+- Screenshots of the virtual environment;
+- Sanitized outputs from the tests;
+- Description of each test scenario;
+- Risk analysis;
+- Mitigation recommendations;
+- Final conclusions.
+
+The purpose of the evidence is to demonstrate the learning process and the technical understanding of the concepts, not to expose sensitive data or encourage unauthorized activity.
+
+## Expected Results
+
+At the end of this project, the expected results are:
+
+- A functional cybersecurity lab using virtual machines;
+- A documented understanding of brute-force risks;
+- A clear explanation of how weak authentication can affect services;
+- Organized evidence of the learning process;
+- Sanitized technical documentation;
+- A set of defensive recommendations based on the risks studied;
+- A GitHub repository that can be used as a cybersecurity portfolio project.
+
+## Project Status
+
+In progress.
+
+## Conclusion
+
+This project aims to demonstrate the importance of understanding brute-force attacks in a safe and ethical way.
+
+By using a controlled lab environment, it is possible to study how authentication weaknesses can be analyzed and, more importantly, how they can be prevented through proper security practices.
+
+The project reinforces that cybersecurity is not only about using tools, but also about understanding risks, documenting findings, respecting ethical boundaries, and proposing responsible mitigation strategies.
+
+Through this laboratory, the main objective is to connect theory and practice while developing a professional approach to cybersecurity documentation.
