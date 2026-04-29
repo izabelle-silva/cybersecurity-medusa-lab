@@ -92,4 +92,10 @@ A study of user enumeration and password spraying concepts against an SMB servic
 
 The objective of this scenario is to understand the risks associated with exposed network services, weak passwords, and insufficient account protection policies.
 
+## Repository Structure
 
+```text
+docs/       Detailed project documentation
+wordlists/  Simple sample username and password lists
+images/     Screenshots from the lab environment
+logs/       Sanitized outputs from the tests
