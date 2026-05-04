@@ -48,24 +48,15 @@ The commands used were:
 uname -a
 ip a
 whoami
-Evidence 5 — Medusa Tool Validation
+```
+These commands validate the operating system, the network interface, and the current logged-in user.
+
+![Kali System Info](../images/04-kali-terminal-system-info.png)
+
+## Evidence 5 — Medusa Tool Validation
 
 The fifth evidence shows that the Medusa tool is available in the Kali Linux environment.
 
 This confirms that the password auditing tool required for the next stages of the project can be accessed from the terminal.
 
-Notes
-
-At this stage, the Kali Linux environment is configured and accessible.
-
-The next steps of the project will include:
-
-Configuring the vulnerable target machine;
-Validating communication between the Kali Linux VM and the target VM;
-Performing network scanning;
-Documenting the FTP, DVWA, and SMB lab scenarios;
-Adding sanitized logs and screenshots to the repository.
-
-All screenshots and logs must be sanitized before publication.
-
-
+![Medusa Tool Validation](../images/05-medusa-tool-validation.png)
