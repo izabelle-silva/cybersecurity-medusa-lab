@@ -29,7 +29,7 @@ The IP identified in the lab was:
 192.168.56.102
 ```
 
-![Metasploitable IP Address](images/09-metasploitable-ip-address.png)
+![Metasploitable IP Address](../images/09-metasploitable-ip-address.png)
 
 ## Evidence 2 — Connectivity Test from Kali Linux
 
@@ -43,7 +43,7 @@ ping 192.168.56.102
 
 The response confirmed that both machines are communicating correctly in the same host-only network.
 
-![Kali Ping Metasploitable](images/10-kali-ping-metasploitable.png)
+![Kali Ping Metasploitable](../images/10-kali-ping-metasploitable.png)
 
 ## Result
 
