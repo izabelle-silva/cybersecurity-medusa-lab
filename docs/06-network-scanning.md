@@ -35,7 +35,7 @@ nmap -sn 192.168.56.0/24
 
 This command was used to identify active hosts in the lab network.
 
-![Nmap Host Discovery](images/12-nmap-host-discovery.png)
+![Nmap Host Discovery](../images/12-nmap-host-discovery.png)
 
 ## Evidence 2 — Service Scan
 
@@ -49,9 +49,9 @@ nmap -sV 192.168.56.102 -oN nmap-metasploitable-service-scan.txt
 
 This command was used to identify open ports and running services on the target machine.
 
-![Nmap Service Scan Part 1](images/13-nmap-service-scan-part1.png)
+![Nmap Service Scan Part 1](../images/13-nmap-service-scan-part1.png)
 
-![Nmap Service Scan Part 2](images/13-nmap-service-scan-part2.png)
+![Nmap Service Scan Part 2](../images/13-nmap-service-scan-part2.png)
 
 ## Output File
 
